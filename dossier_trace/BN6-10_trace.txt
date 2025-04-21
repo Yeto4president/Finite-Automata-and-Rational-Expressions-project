@@ -1,0 +1,36 @@
+Automate n°10
+    | a | b |
+↔ 0 | 1 |   | 
+  1 | 2 | 2 | 
+  2 | 3 |   | 
+  3 | 4 | 4 | 
+  4 |   | 0 | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a | b |
+← 0 | 1 |   | 
+  1 | 2 | 2 | 
+  2 | 3 |   | 
+  3 | 4 | 4 | 
+  4 |   | 0 | 
+↔ i | 1 |   | 
+Automate déterministe mais non complet
+Complétion...
+    | a | b |
+← 0 | 1 | P | 
+  1 | 2 | 2 | 
+  2 | 3 | P | 
+  3 | 4 | 4 | 
+  4 | P | 0 | 
+↔ i | 1 | P | 
+  P | P | P | 
+Automate complémentaire...
+    | a | b |
+  0 | 1 | P | 
+← 1 | 2 | 2 | 
+← 2 | 3 | P | 
+← 3 | 4 | 4 | 
+← 4 | P | 0 | 
+→ i | 1 | P | 
+← P | P | P | 
+Le mot ab est reconnu 

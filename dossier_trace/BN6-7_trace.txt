@@ -1,0 +1,20 @@
+Automate n°7
+    | a   |
+← 0 |     | 
+→ 1 | 0,1 | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a   |
+← 0 |     | 
+  1 | 0,1 | 
+→ i | 0,1 | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+     | a  |
+→ i  | 01 | 
+← 01 | 01 | 
+Automate complémentaire...
+     | a  |
+↔ i  | 01 | 
+  01 | 01 | 
+Le mot a n'est pas reconnu

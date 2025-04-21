@@ -1,0 +1,36 @@
+Automate n°28
+    | a   |
+← 0 | 4   | 
+→ 1 | 2,4 | 
+  2 | 3   | 
+← 3 | 2   | 
+  4 | 5   | 
+  5 | 0   | 
+Automate déjà standardisé
+    | a   |
+← 0 | 4   | 
+→ 1 | 2,4 | 
+  2 | 3   | 
+← 3 | 2   | 
+  4 | 5   | 
+  5 | 0   | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+     | a  |
+  25 | 03 | 
+← 35 | 02 | 
+  24 | 35 | 
+← 02 | 34 | 
+← 34 | 25 | 
+→ 1  | 24 | 
+← 03 | 24 | 
+Automate complémentaire...
+     | a  |
+← 25 | 03 | 
+  35 | 02 | 
+← 24 | 35 | 
+  02 | 34 | 
+  34 | 25 | 
+↔ 1  | 24 | 
+  03 | 24 | 
+Le mot a est reconnu 

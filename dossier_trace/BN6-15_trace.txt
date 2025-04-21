@@ -1,0 +1,36 @@
+Automate n°15
+    | a | b | c | d |
+  0 | 0 |   |   |   | 
+→ 1 | 1 | 2 | 3 | 4 | 
+  2 | 0 | 2 | 3 | 4 | 
+  3 | 0 | 0 | 3 | 4 | 
+← 4 | 0 | 0 | 0 | 4 | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a | b | c | d |
+  0 | 0 |   |   |   | 
+  1 | 1 | 2 | 3 | 4 | 
+  2 | 0 | 2 | 3 | 4 | 
+  3 | 0 | 0 | 3 | 4 | 
+← 4 | 0 | 0 | 0 | 4 | 
+→ i | 1 | 2 | 3 | 4 | 
+Automate déterministe mais non complet
+Complétion...
+    | a | b | c | d |
+  0 | 0 | P | P | P | 
+  1 | 1 | 2 | 3 | 4 | 
+  2 | 0 | 2 | 3 | 4 | 
+  3 | 0 | 0 | 3 | 4 | 
+← 4 | 0 | 0 | 0 | 4 | 
+→ i | 1 | 2 | 3 | 4 | 
+  P | P | P | P | P | 
+Automate complémentaire...
+    | a | b | c | d |
+← 0 | 0 | P | P | P | 
+← 1 | 1 | 2 | 3 | 4 | 
+← 2 | 0 | 2 | 3 | 4 | 
+← 3 | 0 | 0 | 3 | 4 | 
+  4 | 0 | 0 | 0 | 4 | 
+↔ i | 1 | 2 | 3 | 4 | 
+← P | P | P | P | P | 
+Le mot abcd n'est pas reconnu

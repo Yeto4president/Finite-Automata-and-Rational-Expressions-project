@@ -1,0 +1,30 @@
+Automate n°30
+    | a |
+← 0 | 3 | 
+→ 1 | 2 | 
+  2 | 3 | 
+← 3 | 4 | 
+← 4 | 0 | 
+Automate déjà standardisé
+    | a |
+← 0 | 3 | 
+→ 1 | 2 | 
+  2 | 3 | 
+← 3 | 4 | 
+← 4 | 0 | 
+Automate déterministe et complet
+Affichage de l'automate
+    | a |
+← 0 | 3 | 
+→ 1 | 2 | 
+  2 | 3 | 
+← 3 | 4 | 
+← 4 | 0 | 
+Automate complémentaire...
+    | a |
+  0 | 3 | 
+↔ 1 | 2 | 
+← 2 | 3 | 
+  3 | 4 | 
+  4 | 0 | 
+Le mot a est reconnu 

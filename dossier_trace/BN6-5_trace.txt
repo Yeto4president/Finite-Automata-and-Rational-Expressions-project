@@ -1,0 +1,30 @@
+Automate n°5
+    | a | b |
+  0 | 0 | 0 | 
+→ 1 | 2 | 0 | 
+← 2 |   |   | 
+→ 3 | 0 | 4 | 
+← 4 |   |   | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a   | b   |
+  0 | 0   | 0   | 
+  1 | 2   | 0   | 
+← 2 |     |     | 
+  3 | 0   | 4   | 
+← 4 |     |     | 
+→ i | 2,0 | 0,4 | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+     | a  | b  |
+→ i  | 02 | 04 | 
+  0  | 0  | 0  | 
+← 04 | 0  | 0  | 
+← 02 | 0  | 0  | 
+Automate complémentaire...
+     | a  | b  |
+↔ i  | 02 | 04 | 
+← 0  | 0  | 0  | 
+  04 | 0  | 0  | 
+  02 | 0  | 0  | 
+Le mot ab est reconnu 

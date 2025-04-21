@@ -1,0 +1,28 @@
+Automate n°43
+    | a | b   |
+→ 0 | 0 | 0,1 | 
+  1 | 2 |     | 
+← 2 | 2 | 2   | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a | b   |
+  0 | 0 | 0,1 | 
+  1 | 2 |     | 
+← 2 | 2 | 2   | 
+→ i | 0 | 0,1 | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+      | a  | b   |
+← 012 | 02 | 012 | 
+→ i   | 0  | 01  | 
+  01  | 02 | 01  | 
+← 02  | 02 | 012 | 
+  0   | 0  | 01  | 
+Automate complémentaire...
+      | a  | b   |
+  012 | 02 | 012 | 
+↔ i   | 0  | 01  | 
+← 01  | 02 | 01  | 
+  02  | 02 | 012 | 
+← 0   | 0  | 01  | 
+Le mot ab est reconnu 

@@ -1,0 +1,28 @@
+Automate n°26
+    | a | b |
+  0 |   |   | 
+→ 1 | 2 | 2 | 
+  2 | 0 | 3 | 
+← 3 | 3 | 3 | 
+Automate déjà standardisé
+    | a | b |
+  0 |   |   | 
+→ 1 | 2 | 2 | 
+  2 | 0 | 3 | 
+← 3 | 3 | 3 | 
+Automate déterministe mais non complet
+Complétion...
+    | a | b |
+  0 | P | P | 
+→ 1 | 2 | 2 | 
+  2 | 0 | 3 | 
+← 3 | 3 | 3 | 
+  P | P | P | 
+Automate complémentaire...
+    | a | b |
+← 0 | P | P | 
+↔ 1 | 2 | 2 | 
+← 2 | 0 | 3 | 
+  3 | 3 | 3 | 
+← P | P | P | 
+Le mot ab n'est pas reconnu

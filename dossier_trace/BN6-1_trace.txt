@@ -1,0 +1,16 @@
+Automate n°1
+    | a |
+↔ 0 |   | 
+Automate déjà standardisé
+    | a |
+↔ 0 |   | 
+Automate déterministe mais non complet
+Complétion...
+    | a |
+↔ 0 | P | 
+  P | P | 
+Automate complémentaire...
+    | a |
+→ 0 | P | 
+← P | P | 
+Le mot a est reconnu 

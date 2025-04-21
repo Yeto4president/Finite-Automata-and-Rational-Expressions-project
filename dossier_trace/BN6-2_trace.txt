@@ -1,0 +1,18 @@
+Automate n°2
+    | a |
+↔ 0 | 0 | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a |
+← 0 | 0 | 
+↔ i | 0 | 
+Automate déterministe et complet
+Affichage de l'automate
+    | a |
+← 0 | 0 | 
+↔ i | 0 | 
+Automate complémentaire...
+    | a |
+  0 | 0 | 
+→ i | 0 | 
+Le mot a n'est pas reconnu

@@ -1,0 +1,30 @@
+Automate n°11
+    | a | b |
+→ 0 | 2 | 3 | 
+  1 | 3 | 3 | 
+← 2 | 1 | 0 | 
+  3 | 3 | 3 | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a | b |
+  0 | 2 | 3 | 
+  1 | 3 | 3 | 
+← 2 | 1 | 0 | 
+  3 | 3 | 3 | 
+→ i | 2 | 3 | 
+Automate déterministe et complet
+Affichage de l'automate
+    | a | b |
+  0 | 2 | 3 | 
+  1 | 3 | 3 | 
+← 2 | 1 | 0 | 
+  3 | 3 | 3 | 
+→ i | 2 | 3 | 
+Automate complémentaire...
+    | a | b |
+← 0 | 2 | 3 | 
+← 1 | 3 | 3 | 
+  2 | 1 | 0 | 
+← 3 | 3 | 3 | 
+↔ i | 2 | 3 | 
+Le mot ab est reconnu 

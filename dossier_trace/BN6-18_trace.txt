@@ -1,0 +1,32 @@
+Automate n°18
+    | a | b | c | d |
+← 0 |   |   |   |   | 
+→ 1 | 2 | 3 | 4 | 0 | 
+  2 | 2 | 3 | 4 | 0 | 
+  3 |   | 3 | 4 | 0 | 
+  4 |   |   | 4 | 0 | 
+Automate déjà standardisé
+    | a | b | c | d |
+← 0 |   |   |   |   | 
+→ 1 | 2 | 3 | 4 | 0 | 
+  2 | 2 | 3 | 4 | 0 | 
+  3 |   | 3 | 4 | 0 | 
+  4 |   |   | 4 | 0 | 
+Automate déterministe mais non complet
+Complétion...
+    | a | b | c | d |
+← 0 | P | P | P | P | 
+→ 1 | 2 | 3 | 4 | 0 | 
+  2 | 2 | 3 | 4 | 0 | 
+  3 | P | 3 | 4 | 0 | 
+  4 | P | P | 4 | 0 | 
+  P | P | P | P | P | 
+Automate complémentaire...
+    | a | b | c | d |
+  0 | P | P | P | P | 
+↔ 1 | 2 | 3 | 4 | 0 | 
+← 2 | 2 | 3 | 4 | 0 | 
+← 3 | P | 3 | 4 | 0 | 
+← 4 | P | P | 4 | 0 | 
+← P | P | P | P | P | 
+Le mot abcd n'est pas reconnu

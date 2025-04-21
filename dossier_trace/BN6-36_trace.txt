@@ -1,0 +1,32 @@
+Automate n°36
+    | a   | b   |
+→ 0 | 1   | 1,2 | 
+← 1 |     | 0,2 | 
+↔ 2 | 0,1 |     | 
+Automate non standardisé, voulez-vous le standardiser ? Oui ou Non  Oui 
+Standardisation...
+    | a   | b   |
+  0 | 1   | 1,2 | 
+← 1 |     | 0,2 | 
+← 2 | 0,1 |     | 
+↔ i | 1,0 | 1,2 | 
+Automate ni déterministe ni complet
+Déterminisation et complétion...
+      | a  | b   |
+← 012 | 01 | 012 | 
+→ i   | 01 | 12  | 
+← 01  | 1  | 012 | 
+← 12  | 01 | 02  | 
+← 02  | 01 | 12  | 
+← 1   | P  | 02  | 
+  P   | P  | P   | 
+Automate complémentaire...
+      | a  | b   |
+  012 | 01 | 012 | 
+↔ i   | 01 | 12  | 
+  01  | 1  | 012 | 
+  12  | 01 | 02  | 
+  02  | 01 | 12  | 
+  1   | P  | 02  | 
+← P   | P  | P   | 
+Le mot ab n'est pas reconnu

@@ -1,0 +1,18 @@
+Automate n°8
+    | a |
+← 0 | 0 | 
+→ 1 | 0 | 
+Automate déjà standardisé
+    | a |
+← 0 | 0 | 
+→ 1 | 0 | 
+Automate déterministe et complet
+Affichage de l'automate
+    | a |
+← 0 | 0 | 
+→ 1 | 0 | 
+Automate complémentaire...
+    | a |
+  0 | 0 | 
+↔ 1 | 0 | 
+Le mot a n'est pas reconnu
