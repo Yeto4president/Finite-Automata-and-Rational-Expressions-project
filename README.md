@@ -40,13 +40,13 @@ main.py: Main interface for interacting with the program.
 
 test_fonction.py: Automated test script for automata.
 
-3. Data folders
-4. 
+2. Data folders
+   
 dossier_automate/: Contains the .txt files of the PLCs to be processed.
 
 dossier_trace/: Stores the results of PLC executions and transformations.
 
-Implemented functions
+## Implemented functions
 
 Reading and displaying a PLC in the form of a transition table.
 
